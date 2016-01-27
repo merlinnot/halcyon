@@ -151,7 +151,7 @@ install_os_packages () {
 		echo '       $ brew update' >&2
 		echo '       $ brew install bash coreutils git pigz xz' >&2
 		;;
-	'osx-10.9-'*|'osx-10.10-'*)
+	'osx-10.9-'*|'osx-10.11-'*)
 		echo '   *** WARNING: Cannot install OS packages' >&2
 		echo '   *** WARNING: Ensure the following OS packages are installed:' >&2
 		echo '       $ brew update' >&2
